@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>IDFive - Accordion</title>
+    <link rel="stylesheet" type="text/css" href = "style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Pacifico" rel="stylesheet">
+  </head>
+  <body>
+    <div class="component">
+      <section class="accordions" data-js-accordion-section>
+        <div class="accordion active" data-js-accordion>
+          <button
+            id="accordion_title1"
+            class="accordion__title"
+            aria-expanded="true"
+            aria-controls="accordion_content1"
+            aria-label="Accordion Item 1"
+            aria-disabled="true" data-js-accordion-toggle>
+            <span>Accordion Item 1</span>
+          </button>
+          <div class="accordion__content" id="accordion_content1" aria-labelledby="accordion_title1">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+        
+        <div class="accordion" data-js-accordion>
+          <button
+            id="accordion_title2"
+            class="accordion__title"
+            aria-expanded="false"
+            aria-controls="accordion_content2"
+            aria-label="Accordion Item 2"
+            aria-disabled="false" data-js-accordion-toggle>
+            <span>Accordion Item 2</span>
+          </button>
+          <div class="accordion__content" id="accordion_content2" aria-labelledby="accordion_title2">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+
+        <div class="accordion" data-js-accordion>
+          <button
+            id="accordion_title3"
+            class="accordion__title"
+            aria-expanded="false"
+            aria-controls="accordion_content3"
+            aria-label="Accordion Item 3"
+            aria-disabled="false" data-js-accordion-toggle>
+            <span>Accordion Item 3</span>
+          </button>
+          <div class="accordion__content" id="accordion_content3" aria-labelledby="accordion_title3">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
